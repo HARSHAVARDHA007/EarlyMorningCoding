@@ -36,7 +36,7 @@ int main(){
   for(int i=0; i<rows; i++){
     for(int j=0; j<columns; j++){
         int val;
-        cout << "enter value : "<< rows <<columns<< endl;
+        cout << "enter value : "<< endl;
         cin>>val;
         adjMatrix[i][j]=val;
     }
