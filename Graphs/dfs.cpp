@@ -3,7 +3,7 @@
 //This uses stack Data structure 
 #include<bits/stdc++.h>
 using namespace std;
-void DFS(int curr_node , vector<int> visited , vector<int>adjList[], vector<int> dfs){
+void DFS(int curr_node , vector<int> &visited , vector<int>adjList[], vector<int> &dfs){
   dfs.push_back(curr_node);
   for(auto it : adjList[curr_node]){
     if(!visited[it]){
